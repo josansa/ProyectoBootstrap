@@ -35,6 +35,31 @@ i {
     color: #1C2256;
 }
 
+
+/* Estilos asignaturas */
+.table td {
+    border: 1px solid black !important;
+}
+.rl {
+    background-color: orange !important;
+}
+.ao {
+    background-color: lightgreen !important;
+}
+.mme {
+    background-color: rgb(247, 89, 89) !important;
+}
+.ingles {
+    background-color: cornsilk !important;
+}
+.som {
+    background-color: lightskyblue !important;
+}
+.fol {
+    background-color: rgb(163, 105, 163) !important;
+}
+
+/* Boton subir */
 .boton-subir {
     display: block;
     width: 60px;
