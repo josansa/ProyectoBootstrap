@@ -7,6 +7,14 @@
     font-family: principal;
 }
 
+.strong {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: disc;
+}
+
 .nav-link {
     padding: 5px !important;
     color: gray !important;
