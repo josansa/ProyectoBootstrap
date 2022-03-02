@@ -1,8 +1,10 @@
+/* Fuentes importadas */
 @font-face {
     font-family: 'principal';
     src: url('../fonts/Nunito_Sans/NunitoSans-Regular.ttf');
 }
 
+/* Estilos generales */
 *{
     font-family: principal;
 }
@@ -15,6 +17,12 @@ ul {
     list-style-type: disc;
 }
 
+/* Iconos */
+i {
+    color: #1C2256;
+}
+
+/* Header */
 .nav-link {
     padding: 5px !important;
     color: gray !important;
@@ -35,14 +43,10 @@ ul {
     opacity: 0.7;
 }
 
+/* Main */
 .container{
     max-width: 1200px !important;
 }
-
-i {
-    color: #1C2256;
-}
-
 
 /* Estilos asignaturas */
 .table td {
