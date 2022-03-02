@@ -41,7 +41,7 @@
         <ul class="navbar-nav d-flex justify-content-center w-100 gap-lg-4">
           <li class="nav-item">
             <button class="nav-link border-0" id="nav-inicio-tab" data-bs-toggle="tab" data-bs-target="#nav-inicio"
-              type="button" role="tab" aria-controls="nav-inicio" aria-selected="true">Inicio</button>
+              type="button" role="tab" aria-controls="nav-inicio" aria-selected="false">Inicio</button>
           </li>
           <li class="nav-item">
             <button class="nav-link border-0" id="nav-smr-tab" data-bs-toggle="tab" data-bs-target="#nav-smr"
@@ -85,12 +85,14 @@
     <div class="tab-content" id="nav-tabContent">
 
       <!--Inicio-->
-      <div class="tab-pane fade show active row d-flex align-items-center" id="nav-inicio" role="tabpanel" aria-labelledby="nav-inicio-tab">
-        <div class="col-12 col-md-6">
-          <h1>Guía del Estudiante de Ciclos</h1>
-          <p>Bienvenido a la Guía del Estudiante de Ciclos del IES Ruiz Gijón. Navegue por las siguientes pestañas para conocer toda la información de los ciclos formativos que ofrecemos.</p>
+      <div class="tab-pane fade show active" id="nav-inicio" role="tabpanel" aria-labelledby="nav-inicio-tab">
+        <div class="d-flex row justify-content-center align-items-center">
+          <div class="col-12 col-md-6">
+            <h1>Guía del Estudiante de Ciclos</h1>
+            <p>Bienvenido a la Guía del Estudiante de Ciclos del IES Ruiz Gijón. Navegue por las siguientes pestañas para conocer toda la información de los ciclos formativos que ofrecemos.</p>
+          </div>
+          <img src="img/ies.jpg" alt="Instituto IES Ruiz Gijón" class="img-fluid col-12 col-md-6">
         </div>
-        <img src="img/ies.jpg" alt="Instituto IES Ruiz Gijón" class="img-fluid col-12 col-md-6">
       </div>
 
       <!--Horario SMR-->
@@ -303,7 +305,7 @@
       <div class="tab-pane fade" id="nav-contacto" role="tabpanel" aria-labelledby="nav-contacto-tab">
         <h3> Contacto </h3>
         <p>
-          Puedes utilizar el correo ciclos@iesruizgijon.com para contactar con Jefatura de Estudios y resolver tus dudas relacionadas con los Ciclos Formativos "Sistemas Microinformáticos y Redes" y "Desarrollo de Aplicaciones Web".
+          Puedes utilizar el correo <a href="mailto:ciclos@iesruizgijon.com">ciclos@iesruizgijon.com</a> para contactar con Jefatura de Estudios y resolver tus dudas relacionadas con los Ciclos Formativos "Sistemas Microinformáticos y Redes" y "Desarrollo de Aplicaciones Web".
         </p>
       </div>
     </div>
