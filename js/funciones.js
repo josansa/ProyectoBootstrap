@@ -12,10 +12,12 @@ function activar() {
         let mostrar = document.getElementById(id.slice(0, -4));
         let clase = mostrar.className + " show active";
         mostrar.setAttribute("class", clase);
+        botones[i].setAttribute("class", "nav-link border-0 link-activo");
       } else {
         botones[i].ariaSelected = false;
         let ocultar = document.getElementById(botones[i].id.slice(0, -4));
         ocultar.setAttribute("class", "tab-pane fade");
+        botones[i].setAttribute("class", "nav-link border-0");
       }
     }
   }
