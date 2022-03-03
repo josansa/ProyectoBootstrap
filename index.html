@@ -44,12 +44,17 @@
               type="button" role="tab" aria-controls="nav-inicio" aria-selected="false">Inicio</button>
           </li>
           <li class="nav-item">
-            <button class="nav-link border-0" id="nav-smr-tab" data-bs-toggle="tab" data-bs-target="#nav-smr"
-              type="button" role="tab" aria-controls="nav-smr" aria-selected="false">Horario SMR</button>
-          </li>
-          <li class="nav-item">
-            <button class="nav-link border-0" id="nav-daw-tab" data-bs-toggle="tab" data-bs-target="#nav-daw"
-              type="button" role="tab" aria-controls="nav-daw" aria-selected="false">Horario DAW</button>
+            <div class="dropdown show">
+              <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Horarios
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <button class="nav-link border-0" id="nav-smr-tab" data-bs-toggle="tab" data-bs-target="#nav-smr"
+                type="button" role="tab" aria-controls="nav-smr" aria-selected="false">Horario SMR</button>
+                <button class="nav-link border-0" id="nav-daw-tab" data-bs-toggle="tab" data-bs-target="#nav-daw"
+                type="button" role="tab" aria-controls="nav-daw" aria-selected="false">Horario DAW</button>
+              </div>
+            </div>
           </li>
           <li class="nav-item">
             <button class="nav-link border-0" id="nav-pasen-tab" data-bs-toggle="tab" data-bs-target="#nav-pasen"
@@ -69,7 +74,7 @@
           </li>
           <li class="nav-item">
             <button class="nav-link border-0" id="nav-inf-tab" data-bs-toggle="tab" data-bs-target="#nav-inf"
-              type="button" role="tab" aria-controls="nav-inf" aria-selected="false">Itinerarios informativos</button>
+              type="button" role="tab" aria-controls="nav-inf" aria-selected="false">Itinerarios</button>
           </li>
           <li class="nav-item">
             <button class="nav-link border-0" id="nav-contacto-tab" data-bs-toggle="tab" data-bs-target="#nav-contacto"
@@ -163,6 +168,14 @@
                 <td class="azul">SOM</td>
               </tr>
             </table>
+            <ul class="list-unstyled">
+              <li class="d-flex gap-1 align-items-center"> <div class="square verde"></div> Aplicaciones Ofimáticas</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square beige borde"></div> Inglés</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square morado"></div> Formación y Orientación Laboral</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square rojo"></div> Montaje y Mantenimiento</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square naranja"></div> Redes Locales</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square azul"></div> Sistemas Operativos Monopuestos</li>
+            </ul>
           </div>
           <div class="col-12 col-lg-6 mt-3 mt-lg-0">
             <table class="table table-hover text-center">
@@ -228,6 +241,14 @@
                 <td class="beige">SOR</td>
               </tr>
             </table>
+            <ul class="list-unstyled">
+              <li class="d-flex gap-1 align-items-center"> <div class="square azul"></div> Aplicaciones Web</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square morado"></div> Empresa e Iniciativa Emprendedora</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square rojo"></div> Horas de Libre Configuración</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square verde"></div> Seguridad Informática</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square naranja"></div> Servicios en Red</li>
+              <li class="d-flex gap-1 align-items-center"> <div class="square beige"></div> Sistemas Operativos en Red</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -389,6 +410,8 @@
 
   <!--Scripts-->
   <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="js/funciones.js"></script>
 </body>
 

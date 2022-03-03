@@ -1,4 +1,5 @@
 let botones = document.getElementsByTagName("button");
+botonActivoInicio = document.getElementById("nav-inicio-tab").setAttribute("class", "nav-link border-0 link-activo")
 for (let i = 0; i < botones.length; i++) {
   botones[i].addEventListener("click", activar);
 }
