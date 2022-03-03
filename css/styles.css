@@ -5,6 +5,10 @@
 }
 
 /* Estilos generales */
+:root {
+    --main-color: #1C2256;
+}
+
 *{
     font-family: principal;
 }
@@ -19,7 +23,7 @@ ul {
 
 /* Iconos */
 i {
-    color: #1C2256;
+    color: var(--main-color);
 }
 
 /* Header */
@@ -34,12 +38,12 @@ i {
     transition: 0.6s;
 }
 .nav-link:hover {
-    color: #1C2256 !important;
+    color: var(--main-color) !important;
     border-radius: 5px;
     background-color: rgb(230, 230, 230) !important;
 }
 .link-activo {
-    color: #1C2256 !important;
+    color: var(--main-color) !important;
     border-radius: 5px;
     background-color: rgb(230, 230, 230) !important;
 }
