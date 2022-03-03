@@ -48,6 +48,13 @@ i {
     background-color: rgb(230, 230, 230) !important;
 }
 
+.dropdown-menu{
+    border-radius: 5px !important;
+}
+.dropdown-menu button{
+    width: 100%;
+}
+
 .social a {
     opacity: 1;
     transition: 0.3s ease-in;
