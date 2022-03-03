@@ -67,6 +67,14 @@ i {
 .container{
     max-width: 1200px !important;
 }
+.form-label{
+    margin-left: 11px !important;
+}
+
+/* Footer */
+footer div{
+    flex: 0 1 35% !important;
+}
 
 /* Estilos asignaturas */
 .table td {
