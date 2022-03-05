@@ -1,7 +1,7 @@
 /* Fuentes importadas */
 @font-face {
     font-family: 'principal';
-    src: url('../fonts/Nunito_Sans/NunitoSans-Regular.ttf');
+    src: url('../fonts/NunitoSans-Regular.ttf');
 }
 
 /* Estilos generales */
@@ -27,10 +27,6 @@ i {
 }
 
 /* Header */
-#nav-inf-tab {
-    text-align: left;
-}
-
 .nav-link {
     padding: 5px !important;
     color: gray !important;
@@ -41,6 +37,9 @@ i {
     color: var(--main-color) !important;
     border-radius: 5px;
     background-color: rgb(230, 230, 230) !important;
+}
+.nav-item button{
+    width: 100%;
 }
 .link-activo {
     color: var(--main-color) !important;
