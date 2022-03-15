@@ -3,4 +3,4 @@
 ![Image text](/img/logo.png)
 
 ## IES
-->![alt text](/img/logo.png)<-
+<p align="center"> <img src='/img/logo.png'/> </p>
