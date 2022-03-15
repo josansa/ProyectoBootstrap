@@ -1,3 +1,3 @@
 # Proyecto final DIW Jesús Sánchez y José Antonio Sánchez
 
-![Image text](/img/ies.jpg)
+![Image text](/img/logo.png)
